@@ -11,9 +11,7 @@ export const HomeHero = () => {
           <div className="flex flex-col items-center justify-center lg:items-start h-full">
             {" "}
             {/* <-- Adjusted classes here */}
-            <p className="z-30 inline-flex items-center justify-center px-6 py-2 text-sm font-medium tracking-wide text-white rounded-r-full rounded-tl-full bg-gradient-to-r from-dark-800 to-dark-900">
-              Welcome
-            </p>
+    
             <div className="z-30 w-full max-w-lg mx-auto mt-6 text-center lg:text-left lg:max-w-none md:max-w-2xl">
               <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
                 We turn your product vision into a reality
