@@ -1,0 +1,14 @@
+/* animations.css */
+@keyframes moveRight {
+      0% {
+          transform: translateX(-100%);
+      }
+      100% {
+          transform: translateX(100%);
+      }
+  }
+  
+  .move-right {
+      animation: moveRight 20s linear infinite;
+  }
+  

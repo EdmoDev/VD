@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --background: rgba(242, 246, 255, 1);
+  --background-dark: rgba(37, 37, 75, 1);
+  --footnote-semibold-uppercase-font-family: "SFPro Text-Semibold", Helvetica;
+  --footnote-semibold-uppercase-font-size: 13px;
+  --footnote-semibold-uppercase-font-style: normal;
+  --footnote-semibold-uppercase-font-weight: 400;
+  --footnote-semibold-uppercase-letter-spacing: -0.07999999821186066px;
+  --footnote-semibold-uppercase-line-height: 18px;
+  --subhead-medium-uppercase-font-family: "SFPro Text-Medium", Helvetica;
+  --subhead-medium-uppercase-font-size: 15px;
+  --subhead-medium-uppercase-font-style: normal;
+  --subhead-medium-uppercase-font-weight: 500;
+  --subhead-medium-uppercase-letter-spacing: -0.23999999463558197px;
+  --subhead-medium-uppercase-line-height: 20px;
+  
+}
+
+.gradient-hover:hover {
+  background: linear-gradient(45deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.text-glow:hover {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.custom-animation {
+  animation: moveRight 20s linear infinite;
+}
+@keyframes moveRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
