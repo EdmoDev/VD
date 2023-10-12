@@ -41,10 +41,10 @@ export const ServiceList = () => {
               <div className="relative flex flex-wrap w-full lg:flex-col">
                 <div className="relative w-full">
                   <p className="inline-flex items-center justify-center px-6 py-2 text-sm font-medium tracking-wide text-white rounded-r-full rounded-tl-full bg-gradient-to-r from-dark-600 to-dark-700">
-                    What we offer
+                    Services
                   </p>
                   <h2 className="relative w-full mt-6 text-3xl font-extrabold text-left text-white sm:text-4xl md:text-5xl">
-                    We've Got You <br /> Covered
+                    Here What <br /> we Do
                   </h2>
                 </div>
                 <div className="flex mt-8 text-left lg:mt-10">

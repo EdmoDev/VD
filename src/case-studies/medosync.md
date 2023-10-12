@@ -1,6 +1,6 @@
 ---
 name: Medosync
-shortDescription: A company driven by genuine purpose to eliminate waste from healthcare claims and improve efficiency for providers, clinicians and insurers1.
+shortDescription: A company driven by genuine purpose to eliminate waste from healthcare claims and improve efficiency for providers, clinicians and insurers.
 category: Healthcare
 image: "/stock/work/Medo.jpeg"
 featured: true

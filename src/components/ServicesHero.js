@@ -11,7 +11,7 @@ export const ServicesHero = () => {
         {/* Hero header */}
         <div>
           <p className="inline-flex items-center justify-center px-6 py-2 text-sm font-medium tracking-wide text-white rounded-r-full rounded-tl-full bg-gradient-to-r from-dark-600 to-dark-700">
-            Services
+            {/* Services */}
           </p>
           <h1 className="mt-6 text-4xl font-extrabold text-left text-white sm:text-5xl md:text-6xl">
             We Create meaningful digital solutions that level up your business 

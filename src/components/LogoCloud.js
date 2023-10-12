@@ -259,7 +259,7 @@ const logos = [
   },
   //Sec
   {
-    name: "Trastransportation & Logistics",
+    name: "Transportation & Logistics",
     href: "#",
     logo: function Transipotation({ className }) {
       return (
@@ -360,7 +360,7 @@ const logos = [
     },
   },
   {
-    name: "Finace & Accounting",
+    name: "finance & Accounting",
     href: "#",
     logo: function TechLogo({ className }) {
       return (
