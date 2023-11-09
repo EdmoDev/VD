@@ -20,7 +20,7 @@ export const CallToAction = () => {
             </h5>
           </div>
           <div className="flex justify-center max-w-lg mt-10 lg:w-1/2 lg:mt-0 lg:justify-end ">
-            <PrimaryButton href="mailto:venidevlab@gmail.com">
+            <PrimaryButton href="mailto:connect@venidev.com">
               Contact Us
             </PrimaryButton>
           </div>
