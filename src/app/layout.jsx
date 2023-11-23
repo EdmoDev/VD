@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import "@/styles/tailwind.css";
 import { Inter } from "next/font/google";
+import Script from 'next/script'
 
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -14,9 +15,12 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
       <body className={clsx("font-sans", inter.variable)}>
+      <Script src="https://cdn.pagesense.io/js/837834317/10dd6f62829d4ad286196580c3375a40.js" strategy="lazyOnload" />
+
         <Navbar />
         <main className="bg-dark-900">{children}</main>
         <Footer />
