@@ -1,4 +1,4 @@
-# Crator - Next.js
+
 
 This is modern dark agency template built with [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
@@ -52,7 +52,6 @@ We've tried to minimize any custom CSS and only rely on Tailwind's utility class
 
 ## Content
 
-All of the case studies content for the site is stored in markdown files in the `src/case-studies` directory. Crator uses [gray-matter](https://github.com/jonschlinkert/gray-matter), to parse the data from the markdown frontmatter content. Every case study content file has a corresponding `/work/<case-study>` page in the site where `<case-study>` is the name of the file.
 
 ### Adding new case studies
 

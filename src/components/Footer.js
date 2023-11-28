@@ -10,7 +10,7 @@ const contact = {
     zip: "",
   },
   phone: "+1 (639) 739 3133",
-  email: "venidevlab@gmail.com",
+  email: "connect@venidev.com",
 };
 
 const footerLinks = [
@@ -18,7 +18,7 @@ const footerLinks = [
   { label: "Services", href: "/services" },
   { label: "About", href: "/about" },
   // { label: "Work", href: "/work" },
-  { label: "Contact us", href: "mailto:venidevlab@gmail.com" },
+  { label: "Contact us", href: "mailto:connect@venidev.com" },
 ];
 
 export const Footer = () => {
